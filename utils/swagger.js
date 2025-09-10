@@ -10,11 +10,7 @@ const options = {
       version: "1.0.0",
       description: "API for creating, joining, and checking group rooms",
     },
-    servers: [
-      {
-        url: "http://localhost:5000/api",
-      },
-    ],
+   servers: [{ url: "/api/docs" }],
   },
   apis: ["./routes/*.js", "./controllers/*.js"], // Path to files with JSDoc
 };

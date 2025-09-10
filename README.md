@@ -31,7 +31,7 @@ A RESTful API to create and manage group rooms where users can join before the g
 1. **Clone the repository**
 
 ```bash
-git clone <YOUR_REPO_URL>
+git clone https://github.com/RishiWebforest/Group-Room-API.git
 cd group-room-api
 ```
 
@@ -49,6 +49,7 @@ Create a `.env` file in the project root:
 PORT=5000
 MONGO_URI=<your_mongodb_connection_string>
 GROUP_EXPIRY_MINUTES=30
+NODE_ENV=development
 ```
 
 4. **Run the project**
@@ -171,7 +172,7 @@ The server will start on `http://localhost:5000`.
 This project includes Swagger UI for easy exploration of the API.
 
 - After running the project, visit:  
-  👉 [http://localhost:5000/api-docs](http://localhost:5000/api-docs)
+  👉 [http://localhost:5000/api/docs/](http://localhost:5000/api/docs/)
 
 ---
 
@@ -188,4 +189,4 @@ This project includes Swagger UI for easy exploration of the API.
 
 ## Live Demo
 
-- **Deployed Link:** [https://group-room.vercel.app](https://group-room.vercel.app)
+- **Deployed Link:** [https://group-room-api-qgs3.onrender.com](https://group-room-api-qgs3.onrender.com)
