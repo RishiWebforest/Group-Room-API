@@ -38,7 +38,7 @@ router.use(groupLimiter);
  *                 example: 5
  *               name:
  *                 type: string
- *                 example: "Fun Room"
+ *                 example: "Room 1"
  *     responses:
  *       201:
  *         description: Group created successfully
